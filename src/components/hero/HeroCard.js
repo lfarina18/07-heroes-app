@@ -13,10 +13,9 @@ export const HeroCard = ({
   return (
     <div className='col'>
       <div className='card'>
-        {/* <p class="card-text text-center">{superhero} {id}</p> */}
         <div className='row no-gutters'>
           <div className='col-4'>
-            <img src={imagePath} className='card-img-top' alt='{superhero}' />
+            <img src={imagePath} className='card-img' alt='{superhero}' />
           </div>
           <div className='col-8'>
             <div className='card-body'>
@@ -29,7 +28,7 @@ export const HeroCard = ({
                 <span className='text-muted'> {first_appearance} </span>
               </p>
 
-              <Link to={`hero/${id}`}>Más...</Link>
+              <Link to={`../hero/${id}`}>Más...</Link>
             </div>
           </div>
         </div>
