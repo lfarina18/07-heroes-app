@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-
 import { Navbar } from '../components/ui/Navbar';
 import { DcScreen } from '../components/dc/DcScreen';
 import { MarvelScreen } from '../components/marvel/MarvelScreen';
